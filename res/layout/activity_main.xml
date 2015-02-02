@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundrest"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/id_numero"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgedittext"
+        android:hint="Numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/id_textmessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgedittext"
+        android:hint="Text"
+        android:inputType="textMultiLine"
+        android:minLines="6" />
+
+    <Button
+        android:id="@+id/id_envoiyer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imgbutton"
+        android:text="Envoiyer Message" />
+
+</LinearLayout>

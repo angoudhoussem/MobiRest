@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundauthentification" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="426dp"
+        android:background="@drawable/backgroundauthentification"
+        tools:context=".MainMenu" >
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/bgedittext"
+            android:drawableLeft="@drawable/lock"
+            android:ems="10"
+            android:hint="Saisir Password"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bgedittext"
+            android:drawableLeft="@drawable/user"
+            android:ems="10"
+            android:hint="Saisir Login"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Creér Compte?"
+            android:textColor="@color/brown" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/imgbutton"
+            android:text="Connecter"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

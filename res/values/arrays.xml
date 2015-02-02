@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <array name="entries">
+        <item>@drawable/profil</item>
+        <item>@drawable/notification</item>
+        <item>@drawable/maps</item>
+        <item>@drawable/recherche</item>
+        <item>@drawable/favoris</item>
+    </array>
+    <array name="names">
+        <item>Profile</item>
+        <item>Notification</item>
+        <item>Carte</item>
+        <item>Recherche</item>
+        <item>Favoris</item>
+    </array>
+
+</resources>

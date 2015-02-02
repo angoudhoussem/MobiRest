@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pj="http://schemas.android.com/apk/res/com.carouseldemo.main"
+    xmlns:bm="com.carouseldemo.main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/menuhome" 
+        android:background="#336699"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/backgroundrest"
+        android:gravity="top"
+        android:padding="5dip" >
+
+        <com.essths.tuniRest.carouseldemo.controls.Carousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="426dp"
+            android:animationDuration="200"
+            android:background="@drawable/backgroundrest"
+            pj:Items="@array/entries"
+            pj:Names="@array/names"
+            pj:SelectedItem="0"
+            pj:UseReflection="true" >
+        </com.essths.tuniRest.carouseldemo.controls.Carousel>
+    </LinearLayout>
+
+    <!--
+         <TextView
+        android:id="@+id/id_deconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deconnexion" />
+    -->
+
+</LinearLayout>
